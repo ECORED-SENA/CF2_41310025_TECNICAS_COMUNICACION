@@ -15,102 +15,275 @@ export default {
   components: { Actividad },
   data: () => ({
     cuestionario: {
-      tema: 'Manejo de los residuos sólidos en la producción avícola.',
+      tema: 'Comunicación escrita y estructura de informes empresariales',
       titulo: 'Cuestionario',
       introduccion:
-        'Lea cada enunciado y luego seleccione la respuesta correcta según corresponda.',
+        'Evaluar los conceptos clave de la comunicación escrita, la argumentación, y la elaboración de documentos en el contexto empresarial.',
       barajarPreguntas: false,
       preguntas: [
         {
           id: 1,
           texto:
-            'Cuáles son los tipos de explotación en los sistemas productivos avícolas:',
+            '¿Cuál es uno de los tipos de documentos escritos mencionados en el documento?',
           imagen: require('@/assets/componentes/pregunta_1.svg'),
           barajarRespuestas: false,
           opciones: [
-            { id: 'a', texto: 'Explotación intensiva', esCorrecta: false },
-            { id: 'b', texto: 'Explotación semi intensiva', esCorrecta: false },
+            { id: 'a', texto: 'Acta.', esCorrecta: true },
+            { id: 'b', texto: 'Informe.', esCorrecta: false },
             {
               id: 'c',
-              texto: 'Explotación extensiva o traspatio',
+              texto: 'Revista.',
               esCorrecta: false,
             },
-            { id: 'd', texto: 'Todas la anteriores', esCorrecta: true },
+            { id: 'd', texto: 'Boletín.', esCorrecta: false },
           ],
           mensaje_correcto: '¡Muy bien! Ha acertado la respuesta.',
-          mensaje_incorrecto: 'Respuesta incorrecta. Intenta nuevamente ....',
+          mensaje_incorrecto: 'Lo sentimos, su respuesta no es la correcta.',
         },
         {
           id: 2,
-          texto:
-            'Se lanzan dos proyectiles desde el suelo con la misma velocidad inicial, pero uno se lanza horizontalmente y el otro se lanza formando un ángulo de 45 grados con la horizontal. Considerando la resistencia del aire despreciable, ¿cuáles de las siguientes afirmaciones son verdaderas?',
-          imagen: require('@/assets/componentes/pregunta_2.png'),
-          barajarRespuestas: true,
+          texto: '¿Qué técnica es fundamental para una buena argumentación?',
+          imagen: require('@/assets/componentes/pregunta_2.svg'),
+          barajarRespuestas: false,
           opciones: [
-            {
-              id: 'a',
-              texto: 'Ambos proyectiles alcanzarán la misma altura máxima.',
-              esCorrecta: false,
-            },
-            {
-              id: 'b',
-              texto:
-                'El proyectil lanzado horizontalmente recorrerá una distancia horizontal mayor que el proyectil lanzado a 45 grados',
-              esCorrecta: false,
-            },
+            { id: 'a', texto: 'Reglas de inferencia.', esCorrecta: true },
+            { id: 'b', texto: 'Opiniones subjetivas.', esCorrecta: false },
             {
               id: 'c',
-              texto:
-                'La velocidad horizontal del proyectil lanzado a 45 grados será mayor que la velocidad horizontal del proyectil lanzado horizontalmente.',
-              esCorrecta: true,
-            },
-            {
-              id: 'd',
-              texto:
-                'La velocidad total del proyectil lanzado a 45 grados en el punto más alto de su trayectoria será la misma que la velocidad horizontal del proyectil lanzado horizontalmente en cualquier punto de su trayectoria.',
+              texto: 'Uso de metáforas.',
               esCorrecta: false,
             },
+            { id: 'd', texto: 'Narración extensa.', esCorrecta: false },
           ],
-          mensaje_correcto:
-            '¡Perfecto! Has seleccionado la respuesta correcta.',
-          mensaje_incorrecto: 'Esa no es la respuesta correcta. ¡Ánimo!',
+          mensaje_correcto: '¡Muy bien! Ha acertado la respuesta.',
+          mensaje_incorrecto: 'Lo sentimos, su respuesta no es la correcta.',
         },
         {
           id: 3,
-          texto: 'Texto de la tercera pregunta 3',
-          imagen: require('@/assets/curso/banner-princiapal.svg'),
+          texto: '¿Qué elemento es esencial en una carta formal?',
+          imagen: require('@/assets/componentes/pregunta_3.png'),
+          barajarRespuestas: false,
           opciones: [
-            { id: 'a', texto: 'Opción A', esCorrecta: false },
-            { id: 'b', texto: 'Opción B', esCorrecta: false },
-            { id: 'c', texto: 'Opción C', esCorrecta: false },
-            { id: 'd', texto: 'Opción D', esCorrecta: true },
+            { id: 'a', texto: 'Uso de modismos.', esCorrecta: false },
+            { id: 'b', texto: 'Saludo inicial.', esCorrecta: true },
+            {
+              id: 'c',
+              texto: 'Introducción breve.',
+              esCorrecta: false,
+            },
+            { id: 'd', texto: 'Gráficos y tablas.', esCorrecta: false },
           ],
-          mensaje_correcto: '¡Muy bien! Esa es la respuesta correcta.',
+          mensaje_correcto: '¡Muy bien! Ha acertado la respuesta.',
           mensaje_incorrecto: 'Lo sentimos, su respuesta no es la correcta.',
         },
         {
           id: 4,
-          texto: 'Texto de la cuarta pregunta 4',
-          imagen: require('@/assets/curso/banner-princiapal.svg'),
-          barajarRespuestas: true,
+          texto: '¿Qué se recomienda para hacer un informe más atractivo?',
+          imagen: require('@/assets/componentes/pregunta_4.png'),
+          barajarRespuestas: false,
           opciones: [
-            { id: 'a', texto: 'Opción A', esCorrecta: true },
-            { id: 'b', texto: 'Opción B', esCorrecta: false },
-            { id: 'c', texto: 'Opción C', esCorrecta: false },
-            { id: 'd', texto: 'Opción D', esCorrecta: false },
+            {
+              id: 'a',
+              texto: 'Incluir largas citas textuales.',
+              esCorrecta: false,
+            },
+            {
+              id: 'b',
+              texto: 'Usar colores llamativos en todo el texto.',
+              esCorrecta: false,
+            },
+            {
+              id: 'c',
+              texto: 'Ubicar adecuadamente fotos y gráficos.',
+              esCorrecta: true,
+            },
+            {
+              id: 'd',
+              texto: 'Evitar el uso de diagramas.',
+              esCorrecta: false,
+            },
           ],
           mensaje_correcto: '¡Muy bien! Ha acertado la respuesta.',
           mensaje_incorrecto: 'Lo sentimos, su respuesta no es la correcta.',
         },
         {
           id: 5,
-          texto: 'Texto de la quinta pregunta 5',
-          imagen: require('@/assets/curso/banner-princiapal.svg'),
+          texto: '¿Qué debe garantizar una argumentación bien estructurada?',
+          imagen: require('@/assets/componentes/pregunta_1.svg'),
+          barajarRespuestas: false,
           opciones: [
-            { id: 'a', texto: 'Opción A', esCorrecta: false },
-            { id: 'b', texto: 'Opción B', esCorrecta: true },
-            { id: 'c', texto: 'Opción C', esCorrecta: false },
-            { id: 'd', texto: 'Opción D', esCorrecta: false },
+            {
+              id: 'a',
+              texto: 'Uso de terminología técnica.',
+              esCorrecta: false,
+            },
+            {
+              id: 'b',
+              texto: 'Correspondencia entre premisas y conclusión.',
+              esCorrecta: true,
+            },
+            {
+              id: 'c',
+              texto: 'Presentación visual impactante.',
+              esCorrecta: false,
+            },
+            {
+              id: 'd',
+              texto: 'Lenguaje coloquial.',
+              esCorrecta: false,
+            },
+          ],
+          mensaje_correcto: '¡Muy bien! Ha acertado la respuesta.',
+          mensaje_incorrecto: 'Lo sentimos, su respuesta no es la correcta.',
+        },
+        {
+          id: 6,
+          texto:
+            '¿Cuál es uno de los aspectos a considerar antes de escribir una carta?',
+          imagen: require('@/assets/componentes/pregunta_2.svg'),
+          barajarRespuestas: false,
+          opciones: [
+            {
+              id: 'a',
+              texto: 'A quién va dirigida.',
+              esCorrecta: true,
+            },
+            {
+              id: 'b',
+              texto: 'El tamaño del papel.',
+              esCorrecta: false,
+            },
+            {
+              id: 'c',
+              texto: 'El tipo de tinta a usar.',
+              esCorrecta: false,
+            },
+            {
+              id: 'd',
+              texto: 'La hora de envío.',
+              esCorrecta: false,
+            },
+          ],
+          mensaje_correcto: '¡Muy bien! Ha acertado la respuesta.',
+          mensaje_incorrecto: 'Lo sentimos, su respuesta no es la correcta.',
+        },
+        {
+          id: 7,
+          texto: '¿Cuál es una ventaja de la comunicación escrita?',
+          imagen: require('@/assets/componentes/pregunta_3.png'),
+          barajarRespuestas: false,
+          opciones: [
+            {
+              id: 'a',
+              texto: 'Es inmediata.',
+              esCorrecta: false,
+            },
+            {
+              id: 'b',
+              texto: 'Es permanente.',
+              esCorrecta: true,
+            },
+            {
+              id: 'c',
+              texto: 'Es emocionalmente impactante.',
+              esCorrecta: false,
+            },
+            {
+              id: 'd',
+              texto: 'Es difícil de organizar.',
+              esCorrecta: false,
+            },
+          ],
+          mensaje_correcto: '¡Muy bien! Ha acertado la respuesta.',
+          mensaje_incorrecto: 'Lo sentimos, su respuesta no es la correcta.',
+        },
+        {
+          id: 8,
+          texto: '¿Qué es un memorando?',
+          imagen: require('@/assets/componentes/pregunta_4.png'),
+          barajarRespuestas: false,
+          opciones: [
+            {
+              id: 'a',
+              texto: 'Un formato de comunicación con estructura precisa.',
+              esCorrecta: true,
+            },
+            {
+              id: 'b',
+              texto: 'Un informe semanal de actividades.',
+              esCorrecta: false,
+            },
+            {
+              id: 'c',
+              texto: 'Un resumen de un libro.',
+              esCorrecta: false,
+            },
+            {
+              id: 'd',
+              texto: 'Una carta informal.',
+              esCorrecta: false,
+            },
+          ],
+          mensaje_correcto: '¡Muy bien! Ha acertado la respuesta.',
+          mensaje_incorrecto: 'Lo sentimos, su respuesta no es la correcta.',
+        },
+        {
+          id: 9,
+          texto: '¿Qué debe incluirse en un acta?',
+          imagen: require('@/assets/componentes/pregunta_1.svg'),
+          barajarRespuestas: false,
+          opciones: [
+            {
+              id: 'a',
+              texto: 'Acuerdos tomados.',
+              esCorrecta: true,
+            },
+            {
+              id: 'b',
+              texto: 'Opiniones subjetivas.',
+              esCorrecta: false,
+            },
+            {
+              id: 'c',
+              texto: 'Resúmenes de otros documentos.',
+              esCorrecta: false,
+            },
+            {
+              id: 'd',
+              texto: 'Datos financieros.',
+              esCorrecta: false,
+            },
+          ],
+          mensaje_correcto: '¡Muy bien! Ha acertado la respuesta.',
+          mensaje_incorrecto: 'Lo sentimos, su respuesta no es la correcta.',
+        },
+        {
+          id: 10,
+          texto:
+            '¿Qué se recomienda hacer con los resultados negativos en un informe?',
+          imagen: require('@/assets/componentes/pregunta_2.svg'),
+          barajarRespuestas: false,
+          opciones: [
+            {
+              id: 'a',
+              texto: 'Incluirlos para extraer conclusiones.',
+              esCorrecta: true,
+            },
+            {
+              id: 'b',
+              texto: 'Omitirlos para mantener el informe positivo.',
+              esCorrecta: false,
+            },
+            {
+              id: 'c',
+              texto: 'Minimizar su importancia.',
+              esCorrecta: false,
+            },
+            {
+              id: 'd',
+              texto: 'Presentarlos en un anexo separado.',
+              esCorrecta: false,
+            },
           ],
           mensaje_correcto: '¡Muy bien! Ha acertado la respuesta.',
           mensaje_incorrecto: 'Lo sentimos, su respuesta no es la correcta.',
