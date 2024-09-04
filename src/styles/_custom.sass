@@ -59,6 +59,14 @@
   background-color: $color-sistema-n
 .fondo-color-sistema-o
   background-color: $color-sistema-o
+.fondo-color-sistema-p
+  background-color: $color-sistema-p
+.fondo-color-sistema-q
+  background-color: $color-sistema-q
+  transition: background-color .3s
+  &.hover-1:hover
+    background-color: $color-sistema-m
+
 .fondo-color-secundario
   background-color: $color-secundario
 .fondo-color-primario
@@ -106,6 +114,10 @@
   &.size-full
     &:before
       background-size: 100%
+    &.med
+      @media screen and (max-width: $bp-max-md)
+        &:before
+          background-size: cover
   &.pos-center
     &:before
       background-position: center
@@ -122,6 +134,12 @@
   &.f3
     &:before
       background-image: url(../assets/curso/temas/18.png)
+  &.f4
+    &:before
+      background-image: url(../assets/curso/temas/27.png)
+  &.f5
+    &:before
+      background-image: url(../assets/curso/temas/43.png)
   &__contenido
     position: relative
 
@@ -130,6 +148,8 @@
   border: none !important
 .borde-8
   border-radius: 8px
+.borde-9
+  border-radius: 9px
 .borde-10
   border-radius: 10px
 .borde-14
@@ -164,6 +184,11 @@
       opacity: 1 !important
 
 //textos
+.titulo-dec-2
+  border-radius: 20px
+  background-color: $color-acento-contenido
+  display: inline-flex
+
 .titulo-decorativo
   display: inline-flex
   align-items: flex-end
@@ -172,6 +197,7 @@
     h3
       padding-left: 0.4rem
       margin-bottom: 0.3rem
+      color: $color-secundario
     &__linea
       height: 6px
       background-color: $color-secundario
@@ -190,6 +216,28 @@
 
 .fuente-p-1
     font-size: 10px
+
+//infografias
+.imagen-infografica-personalizada-1
+  .img-infografica__item__numero
+    color: $color-sistema-texto !important
+    font-weight: bold !important
+    font-size: 1.5rem
+  .img-infografica__item, .img-infografica-b__item
+    width: 3.5%
+
+//tabs
+.tabs-p-1
+  border-color: $color-sistema-f
+  .tabs-b__tab
+    background-color: $color-sistema-p
+    border-right: 2px solid white
+    border-bottom: none
+  .tabs-b__tab--active
+    border-right: none
+    background-color: $color-sistema-q
+  .tabs-b__content-item
+    background-color: $color-sistema-q
 
 //otros
 .sombra-p-1
