@@ -132,7 +132,7 @@
         :style="{'background-image': `url(${require('@/assets/curso/temas/63.png')})`}"
       )
       .bloque-texto-g__texto.p-4
-        p.mb-0 Esta forma de comunicación verbal utiliza símbolos escritos, como letras y palabras, para transmitir mensajes. Puede manifestarse en diversas formas, como cartas, correos electrónicos, informes, libros, y más. La comunicación escrita permite que el mensaje se preserve a lo largo del tiempo y puede ser consultado repetidamente, lo que la convierte en una herramienta clave para la documentación y la transmisión de conocimiento.
+        p.mb-0 Esta forma de comunicación verbal utiliza símbolos escritos, como letras y palabras, para transmitir mensajes. Puede manifestarse en diversas formas, como cartas, correos electrónicos, informes, libros, y más. La comunicación escrita permite que el mensaje se preserve a lo largo del tiempo y pueda ser consultada repetidamente, lo que la convierte en una herramienta clave para la documentación y la transmisión de conocimiento.
 
 
 </template>
