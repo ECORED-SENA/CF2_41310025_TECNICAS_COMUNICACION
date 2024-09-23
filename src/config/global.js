@@ -306,6 +306,12 @@ export default {
       titulo: 'CONTENIDO INSTRUCCIONAL',
       autores: [
         {
+          nombre: 'José Herney Sánchez Pizarro',
+          cargo: 'Experto temático',
+          centro:
+            'Centro de Desarrollo Agropecuario y Agroindustrial CEDEAGRO - Regional Boyacá',
+        },
+        {
           nombre: 'Paola Alexandra Moya Peralta',
           cargo: 'Evaluadora instruccional',
           centro: 'Centro de Servicios de Salud - Regional Antioquia',
