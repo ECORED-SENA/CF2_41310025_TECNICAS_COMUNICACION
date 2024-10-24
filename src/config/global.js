@@ -113,7 +113,7 @@ export default {
       {
         icono: 'fas fa-file-pdf',
         titulo: 'Descargar PDF',
-        download: 'downloads/prueba.pdf',
+        download: 'downloads/41310025_CF2_DU.pdf',
       },
       {
         icono: 'fas fa-download',
@@ -329,6 +329,16 @@ export default {
         {
           nombre: 'Edwin Sneider Velandia Suarez',
           cargo: 'Desarrollador <i>full stack</i>',
+          centro: 'Centro de Servicios de Salud - Regional Antioquia',
+        },
+        {
+          nombre: 'Daniela Muñoz Bedoya',
+          cargo: 'Animador y productor multimedia',
+          centro: 'Centro de Servicios de Salud - Regional Antioquia',
+        },
+        {
+          nombre: 'GAndrés Felipe Guevara Ariza',
+          cargo: 'Locución',
           centro: 'Centro de Servicios de Salud - Regional Antioquia',
         },
       ],
