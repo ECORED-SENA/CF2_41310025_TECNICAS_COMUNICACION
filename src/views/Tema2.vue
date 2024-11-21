@@ -16,10 +16,10 @@
 
         .fondo-color-sistema-q.p-4.pb-3.pe-3
           figure.mb-4
-            img.me-auto(src="@/assets/curso/temas/29.svg",style="max-width: 45px;")
+            img.me-auto.rota(src="@/assets/curso/temas/29.svg",style="max-width: 45px;")
           p.fw-bold.text-center.mb-3 Según Álvarez (2005, p. 23), el propósito principal de los textos argumentativos es legitimar explícitamente la nueva información proporcionada, ya sea a través de datos empíricos, razonamientos, pruebas o datos concretos y verificables.
           figure
-            img.ms-auto(src="@/assets/curso/temas/30.svg",style="max-width: 38px;")
+            img.ms-auto(src="@/assets/curso/temas/29.svg",style="max-width: 38px;")
     
     .titulo-decorativo.my-5(data-aos="fade-right")
       .cont-figura

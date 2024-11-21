@@ -131,51 +131,35 @@ export default {
     {
       tema: 'Documentos escritos',
       referencia:
-        'Servicio de Planificación y Mejora de la Docencia (2018).Documentos escritos de calidad. [Archivo de video] Youtube.',
+        'Servicio de Planificación y Mejora de la Docencia (2018).Documentos escritos de calidad. [Archivo de video] YouTube.',
       tipo: 'Video',
       link: 'https://www.youtube.com/watch?v=ZU6tACNXVdI',
     },
     {
       tema: 'El informe',
       referencia:
-        'LA PROFE MÓNICA (2022). CÓMO HACER UN INFORME - pasos y sugerencias - Edutuber La profe Mónica [Archivo de video] Youtube.',
+        'LA PROFE MÓNICA (2022). CÓMO HACER UN INFORME - pasos y sugerencias - Edutuber La profe Mónica [Archivo de video] YouTube.',
       tipo: 'Video',
       link: 'https://www.youtube.com/watch?v=hHMV9wMXZrg',
     },
     {
       tema: 'El acta',
       referencia:
-        'Profesora·com (2022).  El Acta | Estructura, Función, Características, Tipos, Ejemplo.  [Archivo de video] Youtube.',
+        'Profesora·com (2022).  El Acta | Estructura, Función, Características, Tipos, Ejemplo.  [Archivo de video] YouTube.',
       tipo: 'Video',
       link: 'https://www.youtube.com/watch?v=Ab3gYuoJP0M',
     },
     {
       tema: 'La argumentación',
       referencia:
-        'Universidad Sergio Arboleda.(2019).  Tipos de argumentos - Universidad Sergio Arboleda.  [Archivo de video] Youtube.',
+        'Universidad Sergio Arboleda.(2019).  Tipos de argumentos - Universidad Sergio Arboleda.  [Archivo de video] YouTube.',
       tipo: 'Video',
       link: 'https://www.youtube.com/watch?v=YzC4X4qfE-w',
     },
     {
-      tema: 'Comunicación verbal y no verbal',
-      referencia:
-        'Pont i Amenós, T. (2010). <em>La comunicación no verbal</em>: ( ed.). Editorial UOC.',
-      tipo: 'Página 25 - 33',
-      link:
-        'https://elibro-net.bdigital.sena.edu.co/es/lc/senavirtual/titulos/57716',
-    },
-    {
-      tema: 'Comunicación no verbal',
-      referencia:
-        'Rulicki, S. (2014). <em>Comunicación no verbal: cómo la inteligencia emocional se expresa a través de los gestos:</em> ( ed.). Ediciones Granica.',
-      tipo: 'Capítulo 1',
-      link:
-        'https://elibro-net.bdigital.sena.edu.co/es/lc/senavirtual/titulos/66669',
-    },
-    {
       tema: 'Comunicación verbal',
       referencia:
-        'Lifeder Educación (2021). ¿Qué es la COMUNICACIÓN VERBAL y cuáles son sus CARACTERÍSTICAS? Tipos, no verbal, ejemplos.  [Archivo de video] Youtube.',
+        'Lifeder Educación (2021). ¿Qué es la COMUNICACIÓN VERBAL y cuáles son sus CARACTERÍSTICAS? Tipos, no verbal, ejemplos.  [Archivo de video] YouTube.',
       tipo: 'Video',
       link: 'https://www.youtube.com/watch?v=q-FTO5tvh6Q',
     },
